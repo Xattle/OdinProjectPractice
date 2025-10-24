@@ -125,4 +125,26 @@ a {
     border-width: 2px;
 }
 
-/*  */
+/* Subfold 2 */
+
+#subfold-2 {
+    background-color: #e5e7eb;
+    padding: 75px 100px;
+
+}
+
+.quote {
+    font-style: italic;
+    font-size: 36px;
+    font-weight: 300;
+    color: #1f2937;
+}
+
+.quote-author {
+    font-weight: bold;
+    font-size: 25px;
+    text-align: right;
+    padding-top: 10px;
+}
+
+/* Call to Action */
