@@ -1,0 +1,96 @@
+/* ./css/style.css */
+/* General formatting */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    padding: 0;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+/* Header formatting */
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+.left {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 16px;
+
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.right {
+    display: flex;
+    justify-content: space-around;
+    gap: 16px;
+}
+
+img.icon {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    border: 2px solid #F9FAF8;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+/* Hero Formatting */
+
+#hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 16px 75px 16px;
+    gap: 20px;
+
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+#hero > div > p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+#hero > div > h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+}
+
+.button-filled {
+    background-color: #3882F6;
+    border-radius: 6px;
+    padding: 5px 16px;
+    color: #F9FAF8;
+    font-size: 18px;
+    border: 0;
+    margin: 8px;
+}
+
+#hero img {
+    width: 400px;
+    height: auto;
+}
